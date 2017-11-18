@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: Access-Control-Allow-Headers, Origin, Accept, X-Requested-With, Content-Type, Access-Control-Request-Method, Access-Control-Request-Headers, Authorization, x-auth-token
+Access-Control-Allow-Methods: GET,HEAD,OPTIONS,POST,PUT,DELETE
+Access-Control-Allow-Origin: http://localhost:3000
+Access-Control-Max-Age: 3600
+Allow: GET, HEAD, POST, PUT, DELETE, TRACE, OPTIONS, PATCH
+
+{
+  "status": "ok",
+  "data": {
+    "questionCount": 28,
+    "answerCount": 68,
+    "choiceOwnerCount": 4,
+    "passiveSurveyCount": 0,
+    "relationCount": 0,
+    "choiceCount": 54,
+    "activeSurveyCount": 2
+  }
+}

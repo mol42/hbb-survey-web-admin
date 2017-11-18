@@ -1,0 +1,10 @@
+{
+    "survey.components.Header.home": "Ana Sayfa",
+    "survey.components.Header.surveyManagement": "Anketler",
+    "survey.components.Header.reportScreenLink" : "Raporlama Ekranı",
+    "survey.containers.NotFoundPage.header": "Sayfa bulunamadı",
+    "survey.components.Aside.logoutButton" : "Çıkış",
+    "survey.components.Aside.passiveSurveys" : "Pasif Anketler",
+    "survey.components.Aside.userList" : "Kullanıcılar"
+  }
+  
