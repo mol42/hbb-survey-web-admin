@@ -20,16 +20,13 @@ import LoginPage from 'containers/Auth/LoginPage/Loadable';
 import LogoutPage from 'containers/Auth/LogoutPage/Loadable';
 import ReportPage from "containers/ReportPage/Loadable";
 import UserMainPage from "containers/User/MainPage/Loadable";
-
-
 import Header from 'components/Header';
 import Aside from 'components/Aside';
 
 import { Container, Row, Col } from 'reactstrap';
 
-import { makeSelectLoginUser } from "redux/selectors/global";
-
 export default function App(store) {
+  
   let isLoggedIn = store.store.getState().getIn(['login', 'user', 'id']) > 0;
 
   return (

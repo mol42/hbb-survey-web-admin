@@ -11,3 +11,4 @@ Hatay Municipality (Turkey) Survey Application Web Admin
 * redux
 * redux-saga
 * reselect
+* immutablejs

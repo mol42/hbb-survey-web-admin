@@ -2,8 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Redirect, Route } from 'react-router-dom';
 
-import { makeSelectLoginUser } from "redux/selectors/global";
-
 const isAuthenticated = ({store}) => {
   let reduxStore = store.getState();
   let user = reduxStore.getIn(['login', 'user']);
